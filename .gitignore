@@ -1,0 +1,21 @@
+# Exclude build output folders
+obj/
+docs/
+build/
+
+# There is machine specific settings in this file
+.vscode/settings.json
+.vscode/c_cpp_properties.json
+
+# Exclude all tests output
+tests/out/**
+
+# Includes some folder but not content
+!tests/out/cells/
+!tests/out/grids/
+
+# Tests results
+*.result
+
+# Libre office tmp files
+.~lock.*
